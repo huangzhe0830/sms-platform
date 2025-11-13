@@ -109,7 +109,7 @@ public class SnowFlake {
      * @param lastTimestamp
      * @return 下一个时间戳
      */
-    private long tilNextMillis(final long lastTimestamp) {
+    private long tilNextMillis(final long lastTimestamp)  {
         long timestamp = this.timeGen();
         while (timestamp <= lastTimestamp) {
             timestamp = this.timeGen();
