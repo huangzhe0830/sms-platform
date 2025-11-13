@@ -1,0 +1,186 @@
+2025-11-13 14:27:22 INFO  com.item.Application - Starting Application using Java 17.0.12 on HUANGZHE with PID 18160 (D:\compile\IDEA\Code\order\sms-platform\target\classes started by 12446 in D:\compile\IDEA\Code\order\sms-platform)
+2025-11-13 14:27:22 INFO  com.item.Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-13 14:27:22 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-13 14:27:22 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-13 14:27:22 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2025-11-13 14:27:23 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8077 (http)
+2025-11-13 14:27:23 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-13 14:27:23 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-11-13 14:27:23 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-13 14:27:23 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1086 ms
+2025-11-13 14:27:23 WARN  c.b.m.core.injector.AbstractMethod - [com.item.sys.mapper.SysDeviceMapper.deleteById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.DeleteById]
+2025-11-13 14:27:23 WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.item.sys.model.SysUser".
+2025-11-13 14:27:23 WARN  c.b.m.c.injector.DefaultSqlInjector - class com.item.sys.model.SysUser ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2025-11-13 14:27:24 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a047bdb, org.springframework.security.web.context.SecurityContextPersistenceFilter@432c0f1, org.springframework.security.web.header.HeaderWriterFilter@6caeba36, org.springframework.web.filter.CorsFilter@14dbfdb1, org.springframework.security.web.authentication.logout.LogoutFilter@5ca22e19, com.item.sys.security.JwtAuthenticationFilter@7856f41a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@284d4885, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5597ca3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5fbae40, org.springframework.security.web.session.SessionManagementFilter@7d6c4079, org.springframework.security.web.access.ExceptionTranslationFilter@77c692b4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@39a8e2fa]
+2025-11-13 14:27:24 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8077 (http) with context path ''
+2025-11-13 14:27:24 INFO  com.item.Application - Started Application in 2.524 seconds (JVM running for 3.094)
+2025-11-13 14:27:24 WARN  c.b.m.c.t.support.ReflectLambdaMeta - Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @18078bef
+2025-11-13 14:27:24 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-13 14:27:24 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-13 14:28:29 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-13 14:28:29 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-13 14:28:29 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-11-13 14:32:03 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-13 14:32:03 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-13 14:32:07 INFO  com.item.Application - Starting Application using Java 17.0.12 on HUANGZHE with PID 2460 (D:\compile\IDEA\Code\order\sms-platform\target\classes started by 12446 in D:\compile\IDEA\Code\order\sms-platform)
+2025-11-13 14:32:07 INFO  com.item.Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-13 14:32:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-13 14:32:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-13 14:32:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2025-11-13 14:32:08 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8077 (http)
+2025-11-13 14:32:08 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-13 14:32:08 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-11-13 14:32:08 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-13 14:32:08 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 924 ms
+2025-11-13 14:32:08 WARN  c.b.m.core.injector.AbstractMethod - [com.item.sys.mapper.SysDeviceMapper.deleteById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.DeleteById]
+2025-11-13 14:32:08 WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.item.sys.model.SysUser".
+2025-11-13 14:32:08 WARN  c.b.m.c.injector.DefaultSqlInjector - class com.item.sys.model.SysUser ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2025-11-13 14:32:09 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@69a90b81, org.springframework.security.web.context.SecurityContextPersistenceFilter@60c98f25, org.springframework.security.web.header.HeaderWriterFilter@36238b12, org.springframework.web.filter.CorsFilter@6dcbbb49, org.springframework.security.web.authentication.logout.LogoutFilter@5dd6a4c8, com.item.sys.security.JwtAuthenticationFilter@35329a05, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1eb906f3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46e388ec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36c783ca, org.springframework.security.web.session.SessionManagementFilter@6caa4dc5, org.springframework.security.web.access.ExceptionTranslationFilter@41167ded, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1cc93da4]
+2025-11-13 14:32:09 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8077 (http) with context path ''
+2025-11-13 14:32:09 INFO  com.item.Application - Started Application in 2.247 seconds (JVM running for 2.722)
+2025-11-13 14:32:09 WARN  c.b.m.c.t.support.ReflectLambdaMeta - Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @18078bef
+2025-11-13 14:32:09 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-13 14:32:09 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-13 14:32:24 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-13 14:32:24 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-13 14:32:28 INFO  com.item.Application - Starting Application using Java 17.0.12 on HUANGZHE with PID 5696 (D:\compile\IDEA\Code\order\sms-platform\target\classes started by 12446 in D:\compile\IDEA\Code\order\sms-platform)
+2025-11-13 14:32:28 INFO  com.item.Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-13 14:32:28 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-13 14:32:28 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-13 14:32:28 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2025-11-13 14:32:29 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8077 (http)
+2025-11-13 14:32:29 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-13 14:32:29 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-11-13 14:32:29 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-13 14:32:29 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 926 ms
+2025-11-13 14:32:29 WARN  c.b.m.core.injector.AbstractMethod - [com.item.sys.mapper.SysDeviceMapper.deleteById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.DeleteById]
+2025-11-13 14:32:30 WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.item.sys.model.SysUser".
+2025-11-13 14:32:30 WARN  c.b.m.c.injector.DefaultSqlInjector - class com.item.sys.model.SysUser ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2025-11-13 14:32:30 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2804b13f, org.springframework.security.web.context.SecurityContextPersistenceFilter@60c98f25, org.springframework.security.web.header.HeaderWriterFilter@36238b12, org.springframework.web.filter.CorsFilter@69069866, org.springframework.security.web.authentication.logout.LogoutFilter@5dd6a4c8, com.item.sys.security.JwtAuthenticationFilter@ac417a2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1eb906f3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46e388ec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64c95480, org.springframework.security.web.session.SessionManagementFilter@6caa4dc5, org.springframework.security.web.access.ExceptionTranslationFilter@41167ded, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6f1d799]
+2025-11-13 14:32:30 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8077 (http) with context path ''
+2025-11-13 14:32:30 INFO  com.item.Application - Started Application in 2.405 seconds (JVM running for 2.908)
+2025-11-13 14:32:30 WARN  c.b.m.c.t.support.ReflectLambdaMeta - Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @18078bef
+2025-11-13 14:32:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-13 14:32:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-13 14:35:04 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-13 14:35:04 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-13 14:35:04 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-13 14:42:47 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-13 14:42:47 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-13 14:42:51 INFO  com.item.Application - Starting Application using Java 17.0.12 on HUANGZHE with PID 30012 (D:\compile\IDEA\Code\order\sms-platform\target\classes started by 12446 in D:\compile\IDEA\Code\order\sms-platform)
+2025-11-13 14:42:51 INFO  com.item.Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-13 14:42:51 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-13 14:42:51 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-13 14:42:51 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2025-11-13 14:42:52 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8077 (http)
+2025-11-13 14:42:52 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-13 14:42:52 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-11-13 14:42:52 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-13 14:42:52 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1043 ms
+2025-11-13 14:42:52 WARN  c.b.m.core.injector.AbstractMethod - [com.item.sys.mapper.SysDeviceMapper.deleteById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.DeleteById]
+2025-11-13 14:42:52 WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.item.sys.model.SysUser".
+2025-11-13 14:42:52 WARN  c.b.m.c.injector.DefaultSqlInjector - class com.item.sys.model.SysUser ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2025-11-13 14:42:53 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6996bbc4, org.springframework.security.web.context.SecurityContextPersistenceFilter@46e388ec, org.springframework.security.web.header.HeaderWriterFilter@74764622, org.springframework.web.filter.CorsFilter@1de08775, org.springframework.security.web.authentication.logout.LogoutFilter@77c692b4, com.item.sys.security.JwtAuthenticationFilter@2dbf2da, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5efe5b25, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26463a6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@21a5b599, org.springframework.security.web.session.SessionManagementFilter@491893f8, org.springframework.security.web.access.ExceptionTranslationFilter@733fae8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@30228de7]
+2025-11-13 14:42:53 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8077 (http) with context path ''
+2025-11-13 14:42:53 INFO  com.item.Application - Started Application in 2.525 seconds (JVM running for 3.05)
+2025-11-13 14:42:53 WARN  c.b.m.c.t.support.ReflectLambdaMeta - Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @18078bef
+2025-11-13 14:42:53 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-13 14:42:53 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-13 14:42:53 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-13 14:42:53 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-13 14:42:53 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-13 14:59:53 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-13 14:59:53 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-13 14:59:57 INFO  com.item.Application - Starting Application using Java 17.0.12 on HUANGZHE with PID 5696 (D:\compile\IDEA\Code\order\sms-platform\target\classes started by 12446 in D:\compile\IDEA\Code\order\sms-platform)
+2025-11-13 14:59:57 INFO  com.item.Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-13 14:59:58 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-13 14:59:58 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-13 14:59:58 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2025-11-13 14:59:58 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8077 (http)
+2025-11-13 14:59:58 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-13 14:59:58 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-11-13 14:59:58 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-13 14:59:58 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1168 ms
+2025-11-13 14:59:59 WARN  c.b.m.core.injector.AbstractMethod - [com.item.sys.mapper.SysDeviceMapper.deleteById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.DeleteById]
+2025-11-13 14:59:59 WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.item.sys.model.SysUser".
+2025-11-13 14:59:59 WARN  c.b.m.c.injector.DefaultSqlInjector - class com.item.sys.model.SysUser ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2025-11-13 14:59:59 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@51de5efa, org.springframework.security.web.context.SecurityContextPersistenceFilter@60c98f25, org.springframework.security.web.header.HeaderWriterFilter@36238b12, org.springframework.web.filter.CorsFilter@30228de7, org.springframework.security.web.authentication.logout.LogoutFilter@5dd6a4c8, com.item.sys.security.JwtAuthenticationFilter@28bd5015, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1eb906f3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46e388ec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e159116, org.springframework.security.web.session.SessionManagementFilter@6caa4dc5, org.springframework.security.web.access.ExceptionTranslationFilter@41167ded, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6b2e9db2]
+2025-11-13 14:59:59 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8077 (http) with context path ''
+2025-11-13 14:59:59 INFO  com.item.Application - Started Application in 2.612 seconds (JVM running for 3.207)
+2025-11-13 14:59:59 WARN  c.b.m.c.t.support.ReflectLambdaMeta - Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @18078bef
+2025-11-13 14:59:59 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-13 15:00:00 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-13 15:00:00 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-13 15:00:00 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-11-13 15:00:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-13 15:02:13 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-13 15:02:13 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-13 15:02:16 INFO  com.item.Application - Starting Application using Java 17.0.12 on HUANGZHE with PID 34156 (D:\compile\IDEA\Code\order\sms-platform\target\classes started by 12446 in D:\compile\IDEA\Code\order\sms-platform)
+2025-11-13 15:02:16 INFO  com.item.Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-13 15:02:17 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-13 15:02:17 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-13 15:02:17 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+2025-11-13 15:02:17 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8077 (http)
+2025-11-13 15:02:17 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-13 15:02:17 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-11-13 15:02:18 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-13 15:02:18 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1170 ms
+2025-11-13 15:02:18 WARN  c.b.m.core.injector.AbstractMethod - [com.item.sys.mapper.SysDeviceMapper.deleteById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.DeleteById]
+2025-11-13 15:02:18 WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.item.sys.model.SysUser".
+2025-11-13 15:02:18 WARN  c.b.m.c.injector.DefaultSqlInjector - class com.item.sys.model.SysUser ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2025-11-13 15:02:19 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3bf5911d, org.springframework.security.web.context.SecurityContextPersistenceFilter@60c98f25, org.springframework.security.web.header.HeaderWriterFilter@36238b12, org.springframework.web.filter.CorsFilter@1de30c31, org.springframework.security.web.authentication.logout.LogoutFilter@5dd6a4c8, com.item.sys.security.JwtAuthenticationFilter@1cc93da4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1eb906f3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46e388ec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@69d2fb0a, org.springframework.security.web.session.SessionManagementFilter@6caa4dc5, org.springframework.security.web.access.ExceptionTranslationFilter@41167ded, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@21a5b599]
+2025-11-13 15:02:19 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8077 (http) with context path ''
+2025-11-13 15:02:19 INFO  com.item.Application - Started Application in 2.746 seconds (JVM running for 3.189)
+2025-11-13 15:02:19 WARN  c.b.m.c.t.support.ReflectLambdaMeta - Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @18078bef
+2025-11-13 15:02:19 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-13 15:02:19 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-13 15:02:20 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-13 15:02:20 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-13 15:02:20 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-11-13 15:03:37 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-13 15:03:37 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-13 15:03:41 INFO  com.item.Application - Starting Application using Java 17.0.12 on HUANGZHE with PID 31940 (D:\compile\IDEA\Code\order\sms-platform\target\classes started by 12446 in D:\compile\IDEA\Code\order\sms-platform)
+2025-11-13 15:03:41 INFO  com.item.Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-13 15:03:42 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-13 15:03:42 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-13 15:03:42 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2025-11-13 15:03:42 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8077 (http)
+2025-11-13 15:03:42 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-13 15:03:42 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-11-13 15:03:42 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-13 15:03:42 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1302 ms
+2025-11-13 15:03:43 WARN  c.b.m.core.injector.AbstractMethod - [com.item.sys.mapper.SysDeviceMapper.deleteById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.DeleteById]
+2025-11-13 15:03:43 WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.item.sys.model.SysUser".
+2025-11-13 15:03:43 WARN  c.b.m.c.injector.DefaultSqlInjector - class com.item.sys.model.SysUser ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2025-11-13 15:03:43 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1de30c31, org.springframework.security.web.context.SecurityContextPersistenceFilter@60c98f25, org.springframework.security.web.header.HeaderWriterFilter@36238b12, org.springframework.web.filter.CorsFilter@1cc93da4, org.springframework.security.web.authentication.logout.LogoutFilter@5dd6a4c8, com.item.sys.security.JwtAuthenticationFilter@69d2fb0a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1eb906f3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46e388ec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e38e254, org.springframework.security.web.session.SessionManagementFilter@6caa4dc5, org.springframework.security.web.access.ExceptionTranslationFilter@41167ded, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7db162f2]
+2025-11-13 15:03:43 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8077 (http) with context path ''
+2025-11-13 15:03:43 INFO  com.item.Application - Started Application in 2.734 seconds (JVM running for 3.175)
+2025-11-13 15:03:43 WARN  c.b.m.c.t.support.ReflectLambdaMeta - Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @18078bef
+2025-11-13 15:03:43 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-13 15:03:43 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-13 15:03:44 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-13 15:03:44 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-13 15:03:44 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-13 17:10:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-13 17:10:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-13 17:12:43 INFO  com.item.Application - Starting Application using Java 17.0.12 on HUANGZHE with PID 39396 (D:\compile\IDEA\Code\order\sms-platform\target\classes started by 12446 in D:\compile\IDEA\Code\order\sms-platform)
+2025-11-13 17:12:43 INFO  com.item.Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-13 17:12:43 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-13 17:12:43 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-13 17:12:43 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2025-11-13 17:12:44 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8077 (http)
+2025-11-13 17:12:44 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-13 17:12:44 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-11-13 17:12:44 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-13 17:12:44 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1031 ms
+2025-11-13 17:12:44 WARN  c.b.m.core.injector.AbstractMethod - [com.item.sys.mapper.SysDeviceMapper.deleteById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.DeleteById]
+2025-11-13 17:12:44 WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.item.sys.model.SysUser".
+2025-11-13 17:12:44 WARN  c.b.m.c.injector.DefaultSqlInjector - class com.item.sys.model.SysUser ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2025-11-13 17:12:45 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3451fc88, org.springframework.security.web.context.SecurityContextPersistenceFilter@74fc3fc7, org.springframework.security.web.header.HeaderWriterFilter@77ff14ce, org.springframework.web.filter.CorsFilter@1e0294a7, org.springframework.security.web.authentication.logout.LogoutFilter@7b3a6e95, com.item.sys.security.JwtAuthenticationFilter@3041beb3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1f408ab6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f0e2bdc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15cee630, org.springframework.security.web.session.SessionManagementFilter@1eb906f3, org.springframework.security.web.access.ExceptionTranslationFilter@41938e1e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@21a9f95b]
+2025-11-13 17:12:45 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8077 (http) with context path ''
+2025-11-13 17:12:45 INFO  com.item.Application - Started Application in 2.527 seconds (JVM running for 3.093)
+2025-11-13 17:12:45 WARN  c.b.m.c.t.support.ReflectLambdaMeta - Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @18078bef
+2025-11-13 17:12:45 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-13 17:12:45 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-13 17:12:48 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-13 17:12:48 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
